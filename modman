@@ -1,0 +1,37 @@
+app/code/core/Mage/Admin/Model/User.php         app/code/core/Mage/Admin/Model/User.php
+app/code/core/Mage/Captcha                      app/code/core/Mage/Captcha
+
+app/design/adminhtml/default/default/layout/captcha.xml app/design/adminhtml/default/default/layout/captcha.xml
+app/design/adminhtml/default/default/template/captcha/zend.phtml app/design/adminhtml/default/default/template/captcha/zend.phtml
+app/design/adminhtml/default/default/template/forgotpassword.phtml app/design/adminhtml/default/default/template/forgotpassword.phtml
+app/design/adminhtml/default/default/template/login.phtml app/design/adminhtml/default/default/template/login.phtml
+app/design/frontend/base/default/layout/captcha.xml app/design/frontend/base/default/layout/captcha.xml
+app/design/frontend/base/default/template/captcha/zend.phtml app/design/frontend/base/default/template/captcha/zend.phtml
+app/design/frontend/base/default/template/checkout/onepage/billing.phtml app/design/frontend/base/default/template/checkout/onepage/billing.phtml
+app/design/frontend/base/default/template/checkout/onepage/login.phtml app/design/frontend/base/default/template/checkout/onepage/login.phtml
+app/design/frontend/base/default/template/customer/form/forgotpassword.phtml app/design/frontend/base/default/template/customer/form/forgotpassword.phtml
+app/design/frontend/base/default/template/customer/form/login.phtml app/design/frontend/base/default/template/customer/form/login.phtml
+app/design/frontend/base/default/template/customer/form/register.phtml app/design/frontend/base/default/template/customer/form/register.phtml
+app/design/frontend/base/default/template/persistent/checkout/billing.phtml app/design/frontend/base/default/template/persistent/checkout/billing.phtml
+app/design/frontend/base/default/template/persistent/checkout/login.phtml app/design/frontend/base/default/template/persistent/checkout/login.phtml
+app/design/frontend/base/default/template/persistent/customer/form/login.phtml app/design/frontend/base/default/template/persistent/customer/form/login.phtml
+app/design/frontend/base/default/template/persistent/customer/form/register.phtml app/design/frontend/base/default/template/persistent/customer/form/register.phtml
+
+app/etc/modules/Mage_Captcha.xml app/etc/modules/Mage_Captcha.xml
+
+js/mage/captcha.js js/mage/captcha.js
+
+# lib/LinLibertineFont/Bugs
+# lib/LinLibertineFont/ChangeLog.txt
+# lib/LinLibertineFont/GPL.txt
+# lib/LinLibertineFont/LICENCE.txt
+# lib/LinLibertineFont/LinLibertineC_Re-2.8.0.ttf
+# lib/LinLibertineFont/LinLibertine_Bd-2.8.1.ttf
+# lib/LinLibertineFont/LinLibertine_It-2.8.2.ttf
+# lib/LinLibertineFont/LinLibertine_Re-4.4.1.ttf
+# lib/LinLibertineFont/OFL.txt
+# lib/LinLibertineFont/Readme
+# lib/LinLibertineFont/Readme-TEX.txt
+
+skin/adminhtml/base/default/images/reload.png       skin/adminhtml/base/default/images/reload.png
+skin/frontend/base/default/images/reload.png        skin/frontend/base/default/images/reload.png
