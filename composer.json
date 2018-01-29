@@ -1,0 +1,7 @@
+{
+    "name": "tangar76/magento1-zend-captcha",
+    "type": "magento-module",
+    "homepage": "https://github.com/tangar76/magento1-zend-captcha",
+    "license": "OSL-3.0",
+    "description": "Zend Captcha implementation for Magento 1.6.x"
+}
