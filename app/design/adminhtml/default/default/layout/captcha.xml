@@ -27,6 +27,7 @@
 
 -->
 <layout version="0.1.0">
+    <!-- Directives below has no affect on layout. Because blocks created programatically in controller -->
     <adminhtml_index_login>
         <reference name="form.additional.info">
             <block type="captcha/captcha" name="captcha">

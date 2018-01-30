@@ -28,8 +28,8 @@
 <config>
     <modules>
         <Mage_Captcha>
-            <active>false</active>
-            <codePool>core</codePool>
+            <active>true</active>
+            <codePool>local</codePool>
             <depends>
                 <Mage_Customer />
                 <Mage_Adminhtml />

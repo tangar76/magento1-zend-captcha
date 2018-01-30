@@ -12,6 +12,7 @@ app/design/frontend/base/default/template/captcha/zend.phtml        app/design/f
 app/etc/modules/Mage_Captcha.xml app/etc/modules/Mage_Captcha.xml
 
 js/mage/captcha.js js/mage/captcha.js
+js/mage/captcha.css js/mage/captcha.css
 
 # lib/LinLibertineFont/Bugs
 # lib/LinLibertineFont/ChangeLog.txt
