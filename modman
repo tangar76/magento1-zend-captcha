@@ -1,21 +1,13 @@
-app/code/core/Mage/Admin/Model/User.php         app/code/core/Mage/Admin/Model/User.php
-app/code/core/Mage/Captcha                      app/code/core/Mage/Captcha
+app/code/local/Mage/Admin/Model/User.php         app/code/local/Mage/Admin/Model/User.php
+app/code/local/Mage/Captcha                      app/code/local/Mage/Captcha
 
-app/design/adminhtml/default/default/layout/captcha.xml app/design/adminhtml/default/default/layout/captcha.xml
-app/design/adminhtml/default/default/template/captcha/zend.phtml app/design/adminhtml/default/default/template/captcha/zend.phtml
-app/design/adminhtml/default/default/template/forgotpassword.phtml app/design/adminhtml/default/default/template/forgotpassword.phtml
-app/design/adminhtml/default/default/template/login.phtml app/design/adminhtml/default/default/template/login.phtml
-app/design/frontend/base/default/layout/captcha.xml app/design/frontend/base/default/layout/captcha.xml
-app/design/frontend/base/default/template/captcha/zend.phtml app/design/frontend/base/default/template/captcha/zend.phtml
-app/design/frontend/base/default/template/checkout/onepage/billing.phtml app/design/frontend/base/default/template/checkout/onepage/billing.phtml
-app/design/frontend/base/default/template/checkout/onepage/login.phtml app/design/frontend/base/default/template/checkout/onepage/login.phtml
-app/design/frontend/base/default/template/customer/form/forgotpassword.phtml app/design/frontend/base/default/template/customer/form/forgotpassword.phtml
-app/design/frontend/base/default/template/customer/form/login.phtml app/design/frontend/base/default/template/customer/form/login.phtml
-app/design/frontend/base/default/template/customer/form/register.phtml app/design/frontend/base/default/template/customer/form/register.phtml
-app/design/frontend/base/default/template/persistent/checkout/billing.phtml app/design/frontend/base/default/template/persistent/checkout/billing.phtml
-app/design/frontend/base/default/template/persistent/checkout/login.phtml app/design/frontend/base/default/template/persistent/checkout/login.phtml
-app/design/frontend/base/default/template/persistent/customer/form/login.phtml app/design/frontend/base/default/template/persistent/customer/form/login.phtml
-app/design/frontend/base/default/template/persistent/customer/form/register.phtml app/design/frontend/base/default/template/persistent/customer/form/register.phtml
+app/design/adminhtml/default/default/layout/captcha.xml             app/design/adminhtml/default/default/layout/captcha.xml
+app/design/adminhtml/default/default/template/captcha/zend.phtml    app/design/adminhtml/default/default/template/captcha/zend.phtml
+app/design/adminhtml/default/default/template/forgotpassword.phtml  app/design/adminhtml/default/default/template/forgotpassword.phtml
+app/design/adminhtml/default/default/template/login.phtml           app/design/adminhtml/default/default/template/login.phtml
+
+app/design/frontend/base/default/layout/captcha.xml                 app/design/frontend/base/default/layout/captcha.xml
+app/design/frontend/base/default/template/captcha/zend.phtml        app/design/frontend/base/default/template/captcha/zend.phtml
 
 app/etc/modules/Mage_Captcha.xml app/etc/modules/Mage_Captcha.xml
 
