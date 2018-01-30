@@ -32,6 +32,7 @@
             <codePool>local</codePool>
             <depends>
                 <Mage_Customer />
+                <Mage_Persistent />
                 <Mage_Adminhtml />
             </depends>
         </Mage_Captcha>

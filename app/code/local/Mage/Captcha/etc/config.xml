@@ -54,14 +54,14 @@
             </captcha_resource>
         </models>
         <events>
-            <controller_action_predispatch_customer_account_loginpost>
+            <controller_action_predispatch_customer_account_loginPost>
                 <observers>
                     <captcha>
                         <class>captcha/observer</class>
                         <method>checkUserLogin</method>
                     </captcha>
                 </observers>
-            </controller_action_predispatch_customer_account_loginpost>
+            </controller_action_predispatch_customer_account_loginPost>
             <controller_action_predispatch_customer_account_forgotpasswordpost>
                 <observers>
                     <captcha>

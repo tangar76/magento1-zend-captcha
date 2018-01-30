@@ -9,22 +9,14 @@ app/design/adminhtml/default/default/template/login.phtml           app/design/a
 app/design/frontend/base/default/layout/captcha.xml                 app/design/frontend/base/default/layout/captcha.xml
 app/design/frontend/base/default/template/captcha/zend.phtml        app/design/frontend/base/default/template/captcha/zend.phtml
 
+app/design/frontend/base/default/template/customer/form/forgotpassword-captcha.phtml    app/design/frontend/base/default/template/customer/form/forgotpassword-captcha.phtml
+app/design/frontend/base/default/template/customer/form/login-captcha.phtml             app/design/frontend/base/default/template/customer/form/login-captcha.phtml
+app/design/frontend/base/default/template/customer/form/register-captcha.phtml          app/design/frontend/base/default/template/customer/form/register-captcha.phtml
+
 app/etc/modules/Mage_Captcha.xml app/etc/modules/Mage_Captcha.xml
 
 js/mage/captcha.js js/mage/captcha.js
 js/mage/captcha.css js/mage/captcha.css
-
-# lib/LinLibertineFont/Bugs
-# lib/LinLibertineFont/ChangeLog.txt
-# lib/LinLibertineFont/GPL.txt
-# lib/LinLibertineFont/LICENCE.txt
-# lib/LinLibertineFont/LinLibertineC_Re-2.8.0.ttf
-# lib/LinLibertineFont/LinLibertine_Bd-2.8.1.ttf
-# lib/LinLibertineFont/LinLibertine_It-2.8.2.ttf
-# lib/LinLibertineFont/LinLibertine_Re-4.4.1.ttf
-# lib/LinLibertineFont/OFL.txt
-# lib/LinLibertineFont/Readme
-# lib/LinLibertineFont/Readme-TEX.txt
 
 skin/adminhtml/base/default/images/reload.png       skin/adminhtml/base/default/images/reload.png
 skin/frontend/base/default/images/reload.png        skin/frontend/base/default/images/reload.png

@@ -29,10 +29,14 @@
 <layout version="0.1.0">
     <customer_account_login>
         <reference name="customer_form_login">
+            <action method="setTemplate">
+                <template>customer/form/login-captcha.phtml</template>
+            </action>
             <block type="core/text_list" name="form.additional.info">
                 <block type="captcha/captcha" name="captcha">
                     <reference name="head">
                         <action method="addJs"><file>mage/captcha.js</file></action>
+                        <action method="addItem"><type>js_css</type><file>mage/captcha.css</file><params>media="all"</params></action>
                     </reference>
                     <action method="setFormId"><formId>user_login</formId></action>
                     <action method="setImgWidth"><width>230</width></action>
@@ -43,10 +47,14 @@
     </customer_account_login>
     <customer_account_forgotpassword>
         <reference name="forgotPassword">
+            <action method="setTemplate">
+                <template>customer/form/forgotpassword-captcha.phtml</template>
+            </action>
             <block type="core/text_list" name="form.additional.info">
                 <block type="captcha/captcha" name="captcha">
                     <reference name="head">
                         <action method="addJs"><file>mage/captcha.js</file></action>
+                        <action method="addItem"><type>js_css</type><file>mage/captcha.css</file><params>media="all"</params></action>
                     </reference>
                     <action method="setFormId"><formId>user_forgotpassword</formId></action>
                     <action method="setImgWidth"><width>230</width></action>
@@ -57,10 +65,14 @@
     </customer_account_forgotpassword>
     <customer_account_create>
         <reference name="customer_form_register">
+            <action method="setTemplate">
+                <template>customer/form/register-captcha.phtml</template>
+            </action>
             <block type="core/text_list" name="form.additional.info">
                 <block type="captcha/captcha" name="captcha">
                     <reference name="head">
                         <action method="addJs"><file>mage/captcha.js</file></action>
+                        <action method="addItem"><type>js_css</type><file>mage/captcha.css</file><params>media="all"</params></action>
                     </reference>
                     <action method="setFormId"><formId>user_create</formId></action>
                     <action method="setImgWidth"><width>230</width></action>
