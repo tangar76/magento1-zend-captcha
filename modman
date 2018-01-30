@@ -13,6 +13,9 @@ app/design/frontend/base/default/template/customer/form/forgotpassword-captcha.p
 app/design/frontend/base/default/template/customer/form/login-captcha.phtml             app/design/frontend/base/default/template/customer/form/login-captcha.phtml
 app/design/frontend/base/default/template/customer/form/register-captcha.phtml          app/design/frontend/base/default/template/customer/form/register-captcha.phtml
 
+app/design/frontend/base/default/template/checkout/onepage/login-captcha.phtml          app/design/frontend/base/default/template/checkout/onepage/login-captcha.phtml
+app/design/frontend/base/default/template/checkout/onepage/billing-captcha.phtml        app/design/frontend/base/default/template/checkout/onepage/billing-captcha.phtml
+
 app/etc/modules/Mage_Captcha.xml app/etc/modules/Mage_Captcha.xml
 
 js/mage/captcha.js js/mage/captcha.js

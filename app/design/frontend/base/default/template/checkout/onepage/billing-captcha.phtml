@@ -23,6 +23,7 @@
  * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
+/** @var Mage_Checkout_Block_Onepage_Billing $this */
 ?>
 <form id="co-billing-form" action="">
 <fieldset>
@@ -138,12 +139,9 @@
                 </li>
             <?php endif ?>
 
-        <?php $_taxvat = $this->getLayout()->createBlock('customer/widget_taxvat') ?>
-        <?php if ($_taxvat->isEnabled()): ?>
-                <li>
-                    <?php echo $_taxvat->setTaxvat($this->getQuote()->getCustomerTaxvat())->setFieldIdFormat('billing:%s')->setFieldNameFormat('billing[%s]')->toHtml() ?>
-                </li>
-        <?php endif ?>
+            <?php if ($this->isTaxvatEnabled()):?>
+                <li><?php echo $this->getTaxvatHtml() ?></li>
+            <?php endif; ?>
 
                 <li class="fields" id="register-customer-password">
                     <div class="field">
@@ -159,6 +157,7 @@
                         </div>
                     </div>
                 </li>
+                <?php echo $this->getChildHtml('persistent.remember.me'); ?>
                 <?php endif; ?>
                 <?php if ($this->isCustomerLoggedIn() && $this->customerHasAddresses()):?>
                     <li class="control">
@@ -169,6 +168,7 @@
                 <?php endif; ?>
                 <?php echo $this->getChildHtml('form.additional.info'); ?>
             </ul>
+            <?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
         </fieldset>
      </li>
     <?php if ($this->canShip()): ?>
@@ -200,5 +200,18 @@
     $('billing-address-select') && billing.newAddress(!$('billing-address-select').value);
 
     var billingRegionUpdater = new RegionUpdater('billing:country_id', 'billing:region', 'billing:region_id', countryRegions, undefined, 'billing:postcode');
+    if ($('onepage-guest-register-button')) {
+        Event.observe($('onepage-guest-register-button'), 'click', function(event) {
+            var billingRememberMe = $$('#billing-new-address-form li #remember-me-box');
+            if(billingRememberMe.length > 0) {
+                billingRememberMe = $(billingRememberMe[0].parentNode);
+                if ($('login:guest') && $('login:guest').checked) {
+                    billingRememberMe.hide();
+                } else if ($('login:register') && ($('login:register').checked || $('login:register').type == 'hidden')) {
+                    billingRememberMe.show();
+                }
+            }
+        });
+    }
 //]]>
 </script>
