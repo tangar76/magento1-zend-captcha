@@ -14,7 +14,7 @@ app/design/adminhtml/default/default/template/login.phtml
 ```
 
 
-#Install
+## Install
 
 ```bash
 cd <magento_root>
